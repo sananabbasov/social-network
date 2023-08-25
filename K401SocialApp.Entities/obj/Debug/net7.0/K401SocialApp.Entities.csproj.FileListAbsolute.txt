@@ -1,0 +1,15 @@
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/bin/Debug/net7.0/K401SocialApp.Entities.deps.json
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/bin/Debug/net7.0/K401SocialApp.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/bin/Debug/net7.0/K401SocialApp.Entities.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/bin/Debug/net7.0/K401SocialApp.Core.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/bin/Debug/net7.0/K401SocialApp.Core.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.csproj.AssemblyReference.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.AssemblyInfoInputs.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.AssemblyInfo.cs
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.csproj.CoreCompileInputs.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.csproj.CopyComplete
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/refint/K401SocialApp.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/K401SocialApp.Entities.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K401/C#/Web/K401SocialApp/K401SocialApp.Entities/obj/Debug/net7.0/ref/K401SocialApp.Entities.dll

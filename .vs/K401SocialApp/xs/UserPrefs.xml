@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{D5BB1121-C5AD-4454-99F1-A2CAB5120B3C}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="K401SocialApp.DataAccess/Concrete/EntityFramework/EfReactionDal.cs">
+    <Files>
+      <File FileName="K401SocialApp.DataAccess/Abstract/IReactionDal.cs" />
+      <File FileName="K401SocialApp.Core/DataAccess/IRepositoryBase.cs" />
+      <File FileName="K401SocialApp.DataAccess/Concrete/EntityFramework/EfReactionDal.cs" Line="26" Column="18" />
+      <File FileName="K401SocialApp.Business/Abstract/IReactionService.cs" />
+      <File FileName="K401SocialApp.Business/Concrete/ReactionManager.cs" />
+      <File FileName="K401SocialApp.Business/DependencyResolvers/DependecyRegistration/ServiceRegistration.cs" />
+      <File FileName="K401SocialApp.WebApi/Controllers/ReactionController.cs" />
+      <File FileName="K401SocialApp.WebApi/Controllers/CommentController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="K401SocialApp" expanded="True">
+            <Node name="K401SocialApp.Core" expanded="True">
+              <Node name="DataAccess" expanded="True" />
+            </Node>
+            <Node name="K401SocialApp.DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True">
+                  <Node name="EfReactionDal.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.K401SocialApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

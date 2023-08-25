@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Abstract\" />
+    <None Remove="Concrete\" />
+    <None Remove="AutoMapper\" />
+    <None Remove="DependencyResolvers\" />
+    <None Remove="DependencyResolvers\DependecyRegistration\" />
+    <None Remove="Consumers\" />
+    <None Remove="Policy\" />
+    <None Remove="Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Concrete\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="DependencyResolvers\" />
+    <Folder Include="DependencyResolvers\DependecyRegistration\" />
+    <Folder Include="Consumers\" />
+    <Folder Include="Policy\" />
+    <Folder Include="Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\K401SocialApp.Core\K401SocialApp.Core.csproj" />
+    <ProjectReference Include="..\K401SocialApp.Entities\K401SocialApp.Entities.csproj" />
+    <ProjectReference Include="..\K401SocialApp.DataAccess\K401SocialApp.DataAccess.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.16" />
+    <PackageReference Include="MassTransit" Version="8.0.16" />
+  </ItemGroup>
+</Project>

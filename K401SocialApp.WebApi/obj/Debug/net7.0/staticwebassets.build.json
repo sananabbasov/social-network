@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VT1zGm7c9kVSp2JzBmhSmD6hUuBl9wqddut2cAeg9XY=",
+  "Source": "K401SocialApp.WebApi",
+  "BasePath": "_content/K401SocialApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
