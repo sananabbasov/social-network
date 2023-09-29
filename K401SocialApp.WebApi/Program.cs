@@ -33,6 +33,15 @@ builder.Services.AddMassTransit(config =>
 
 });
 
+builder.Services.AddCors(policy =>
+{
+    policy.AddPolicy("app",build =>
+    {
+        build.AllowAnyHeader();
+        build.AllowAnyMethod();
+        build.AllowAnyOrigin();
+    });
+});
 
 
 builder.Services.AddControllers()
@@ -78,6 +87,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+app.UseCors("app");
 app.UseHttpsRedirection();
 
 app.UseAuthentication();

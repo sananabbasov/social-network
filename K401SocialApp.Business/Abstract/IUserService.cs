@@ -7,6 +7,7 @@ namespace K401SocialApp.Business.Abstract
 	public interface IUserService
 	{
 		IResult Login(UserLoginDto userLogin);
+		IDataResult<UserDto> GetUserByToken(int id);
 		IResult Register(UserRegisterDto userRegister);
 		IResult VerifyEmail(string email, string token);
 		IResult SendEmail();

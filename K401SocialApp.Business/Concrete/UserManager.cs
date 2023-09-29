@@ -12,6 +12,7 @@ using K401SocialApp.Entities.Concrete;
 using K401SocialApp.Entities.Dtos.UserDtos;
 using K401SocialApp.Entities.SharedModels;
 using MassTransit;
+using static MassTransit.ValidationResultExtensions;
 
 namespace K401SocialApp.Business.Concrete
 {
@@ -43,9 +44,11 @@ namespace K401SocialApp.Business.Concrete
             var result = BusinessRule.Check(CheckUserEmailAndPassword(userLogin.Email,userLogin.Password));
             var user = _userDal.Get(x => x.Email == userLogin.Email);
             if (!result.Success)
-                return new ErrorResult();
+                return new ErrorDataResult<UserDto>(null);
 
             var token = Token.CreateToken(user, "User");
+
+          
 
             return new SuccessResult(token);
 
@@ -146,6 +149,20 @@ namespace K401SocialApp.Business.Concrete
             return new SuccessResult();
         }
 
+        public IDataResult<UserDto> GetUserByToken(int id)
+        {
+            var user = _userDal.Get(x => x.Id == id);
+           
+            UserDto userDto = new()
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Avatar = user.Avatar,
+                Token = null
+            };
+
+            return new SuccessDataResult<UserDto>(userDto);
+        }
     }
 }
 
