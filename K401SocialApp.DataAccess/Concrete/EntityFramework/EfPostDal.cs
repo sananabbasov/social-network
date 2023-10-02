@@ -8,6 +8,13 @@ namespace K401SocialApp.DataAccess.Concrete.EntityFramework
 {
     public class EfPostDal : EfRepositoryBase<Post, AppDbContext>, IPostDal
     {
+        public List<Post> GetAllPosts()
+        {
+            using var context = new AppDbContext();
+            var posts = context.Posts.Include(x => x.Reactions).Include(a => a.User).Include(a => a.Comments).ThenInclude(x => x.User).ToList();
+            return posts;
+        }
+
         public Post GetPostById(int postId)
         {
             using var context = new AppDbContext();

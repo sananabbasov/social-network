@@ -1,48 +1,39 @@
 ﻿<Properties StartupConfiguration="{D5BB1121-C5AD-4454-99F1-A2CAB5120B3C}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="K401SocialApp.WebApi/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="K401SocialApp.Core/DataAccess/IRepositoryBase.cs">
     <Files>
-      <File FileName="K401SocialApp.WebApi/Controllers/AuthController.cs" Line="63" Column="1" />
-      <File FileName="K401SocialApp.Entities/Dtos/UserDtos/UserLoginDto.cs" />
-      <File FileName="K401SocialApp.Entities/Dtos/UserDtos/UserDto.cs" />
-      <File FileName="K401SocialApp.Entities/Concrete/User.cs" />
-      <File FileName="K401SocialApp.Business/Abstract/IUserService.cs" />
-      <File FileName="K401SocialApp.Business/Concrete/UserManager.cs" />
-      <File FileName="K401SocialApp.WebApi/Controllers/CommentController.cs" />
-      <File FileName="K401SocialApp.Business/DependencyResolvers/DependecyRegistration/ServiceRegistration.cs" />
-      <File FileName="K401SocialApp.DataAccess/Concrete/EntityFramework/EfCommentDal.cs" Line="1" Column="1" />
-      <File FileName="K401SocialApp.DataAccess/Concrete/EntityFramework/AppDbContext.cs" Line="1" Column="1" />
-      <File FileName="K401SocialApp.WebApi/appsettings.json" Line="9" Column="134" />
+      <File FileName="K401SocialApp.Business/Abstract/ICommentService.cs" Line="10" Column="3" />
+      <File FileName="K401SocialApp.DataAccess/Concrete/EntityFramework/EfCommentDal.cs" Line="8" Column="37" />
+      <File FileName="K401SocialApp.Core/DataAccess/EntityFramework/EfRepositoryBase.cs" Line="7" Column="62" />
+      <File FileName="K401SocialApp.Core/DataAccess/IRepositoryBase.cs" Line="6" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="K401SocialApp" expanded="True">
-            <Node name="K401SocialApp.DataAccess" expanded="True">
+            <Node name="K401SocialApp.Business">
               <Node name="Abstract" expanded="True" />
+            </Node>
+            <Node name="K401SocialApp.Core" expanded="True">
+              <Node name="DataAccess" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+                <Node name="IRepositoryBase.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="K401SocialApp.DataAccess" expanded="True">
               <Node name="Concrete" expanded="True">
                 <Node name="EntityFramework" expanded="True" />
               </Node>
-            </Node>
-            <Node name="K401SocialApp.Entities" expanded="True">
-              <Node name="Concrete" expanded="True" />
-              <Node name="Dtos" expanded="True">
-                <Node name="UserDtos" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="K401SocialApp.WebApi" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.K401SocialApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.K401SocialApp.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

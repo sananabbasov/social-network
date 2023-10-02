@@ -8,6 +8,7 @@ namespace K401SocialApp.Business.Abstract
 	{
 		IResult AddPost(int id, PostShareDto postShare);
 		IDataResult<PostDetailDto> GetPostDetailById(int postId);
+		IDataResult<List<PostDetailDto>> UserPosts();
 	}
 }
 

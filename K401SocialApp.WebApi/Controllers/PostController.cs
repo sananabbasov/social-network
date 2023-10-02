@@ -47,6 +47,17 @@ namespace K401SocialApp.WebApi.Controllers
             }
             return BadRequest(result);
         }
+
+
+
+        [HttpGet("posts")]
+        public IActionResult AddPost()
+        {
+
+            var res = _postService.UserPosts();
+
+            return Ok(res);
+        }
     }
 }
 

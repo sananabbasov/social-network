@@ -7,6 +7,7 @@ namespace K401SocialApp.DataAccess.Abstract
 	public interface IPostDal : IRepositoryBase<Post>
     {
 		Post GetPostById(int postId);
+		List<Post> GetAllPosts();
 	}
 }
 

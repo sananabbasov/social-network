@@ -6,6 +6,7 @@ using K401SocialApp.Core.Utilities.Results.Concrete;
 using K401SocialApp.DataAccess.Abstract;
 using K401SocialApp.Entities.Concrete;
 using K401SocialApp.Entities.Dtos.PostDtos;
+using static MassTransit.MessageHeaders;
 
 namespace K401SocialApp.Business.Concrete
 {
@@ -37,6 +38,13 @@ namespace K401SocialApp.Business.Concrete
             var result = _mapper.Map<PostDetailDto>(post);
 
             return new SuccessDataResult<PostDetailDto>(result);
+        }
+
+        public IDataResult<List<PostDetailDto>> UserPosts()
+        {
+            var posts = _postDal.GetAllPosts().OrderByDescending(x=>x.Id);
+            var result = _mapper.Map<List<PostDetailDto>>(posts);
+            return new SuccessDataResult<List<PostDetailDto>>(result);
         }
     }
 }
